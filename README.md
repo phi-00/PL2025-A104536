@@ -5,4 +5,4 @@ Neste repositório serão armazenados todos os ficheiros correspondentes aos div
   
 Este repositório pertence a Ana Sofia Ramos Oliveira, cujo número de aluno é **104536**.  
 
-> ![Foto da aluna](https://github.com/user-attachments/assets/7de4a24b-9280-4394-91e4-34e00271dd46)
+> ![Foto da aluna](https://github.com/user-attachments/assets/8eb0a6bc-8efa-44d6-a0f5-ab76a4524ba8)
