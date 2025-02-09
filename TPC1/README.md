@@ -17,23 +17,23 @@ Deste modo, o programa implementado cumpre estes mesmos requisitos, lendo o flux
 ---
 
 ## Lista de Resultados
-Para testar o programa implementado, foram criados três ficheiros de texto, que servirão como o _stdin_ lido pelo programa. Além disso, ao executar os comandos, o output foi redirecionado para ficheiros .txt de resultados.  
-Assim sendo, ao executar o programa redirecionando o _stdin_ para o ficheiro _exemplo1.txt_ (_'python3 somador-on-off.py < exemplo1.txt > resultado1.txt'_), correspondente ao exemplo dado na aula teórica, o resultado esperado foi o obtido:
+Para testar o programa implementado, foram criados três ficheiros de texto, que servirão como o _stdin_ lido pelo programa. Além disso, ao executar os comandos, o output foi redirecionado para ficheiros de resultados.  
+Assim sendo, ao executar o programa redirecionando o _stdin_ para o ficheiro [exemplo1.txt](testes/exemplo1.txt)(_'python3 somador-on-off.py < exemplo1.txt > resultado1.txt'_), correspondente ao exemplo dado na aula teórica, o resultado esperado foi o obtido:
 > 2079  
 > 2086  
-Este resultado pode ser observado no ficheiro [resultado1.txt](resultado1.txt).  
+Este resultado pode ser observado no ficheiro [resultado1.txt](testes/resultado1.txt).  
   
-Quanto ao exemplo2.txt, o programa devolveu como _output_:
+Quanto ao [exemplo2.txt](testes/exemplo2.txt), o programa devolveu como _output_:
 > 230  
 > 405  
 > 565  
-Este resultado pode ser observado no ficheiro [resultado2.txt](resultado2.txt).  
+Este resultado pode ser observado no ficheiro [resultado2.txt](testes/resultado2.txt).  
   
-Por fim, testou-se o programa com o ficheiro de texto _exemplo3.txt_, obtendo o seguinte resultado:
+Por fim, testou-se o programa com o ficheiro de texto [exemplo3.txt](testes/exemplo3.txt), obtendo o seguinte resultado:
 > 850  
 > 1070  
 > 2920  
 > 3420  
 > 4170  
 > 4270  
-Este resultado pode ser observado no ficheiro [resultado3.txt](resultado3.txt).  
+Este resultado pode ser observado no ficheiro [resultado3.txt](testes/resultado3.txt).  
