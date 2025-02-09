@@ -11,8 +11,7 @@
 ## Resumo do Trabalho  
 
 O objetivo deste trabalho era criar um programa em Python correspondente a um somador on/off, que deve somar continuamente os inteiros (definidos como uma sequência de dígitos) encontrados, imprimindo o resultado deste contador quando encontra o caracter '='. Além disso, ao encontrar 'Off' deve desligar o contador, voltando a ligar ao encontrar 'On'.  
-
-Deste modo, o programa implementado cumpre estes mesmos requisitos, lendo o fluxo de entrada linha a linha e variando a forma como lida com os caracteres lidos nessa linha. Se encontrar um inteiro e o estado atual do contador, definido pela variável _ligado_, for 'On', soma o valor desse inteiro a uma variável _contador_. Caso encontre uma sequência de caracteres correspondente a 'Off' ou 'On' trata de mudar a variável _contador_ para 'False' ou 'True', respetivamente. Por fim, verifica se o caracter lido se trata de um '=' e, assim sendo, imprime o valor atual da variável _contador_.
+Deste modo, o programa implementado cumpre estes mesmos requisitos, lendo o fluxo de entrada linha a linha e variando a forma como lida com os caracteres lidos nessa linha. Se encontrar um inteiro e o estado atual do contador, definido pela variável _ligado_, for 'On', soma o valor desse inteiro a uma variável _contador_. Caso encontre uma sequência de caracteres correspondente a 'Off' ou 'On' trata de mudar a variável _contador_ para 'False' ou 'True', respetivamente. Por fim, verifica se o caracter lido se trata de um '=' e, assim sendo, imprime o valor atual da variável _contador_.  
 ---
 
 ## Lista de Resultados
