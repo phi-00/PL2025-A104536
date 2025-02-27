@@ -20,7 +20,6 @@ def markdown_to_html(file):
     
     html_text = re.sub(exp_lista, found_list, html_text, flags=re.MULTILINE)
 
-
     ## Headers
     html_text = re.sub(r'^# (.+)$', r'<h1>\1</h1>', html_text, flags=re.MULTILINE)
     html_text = re.sub(r'^## (.+)$', r'<h2>\1</h2>', html_text, flags=re.MULTILINE)
@@ -33,7 +32,7 @@ def markdown_to_html(file):
     html_text = re.sub(r'\*(.+?)\*', r'<i>\1</i>', html_text)
 
     ## Image
-    html_text = re.sub(r'\!\[(.+?)\]\((.+?)\)', r'<img src="\2" alt="\1" style="width:512px;height:341.5px;"/>', html_text, flags=re.MULTILINE)
+    html_text = re.sub(r'\!\[(.+?)\]\((.+?)\)', r'<img src="\2" alt="\1"/>', html_text, flags=re.MULTILINE)
 
     ## Link
     html_text = re.sub(r'\[(.+?)\]\((.+?)\)', r'<a href="\2">\1</a>', html_text)
@@ -45,9 +44,6 @@ def markdown_to_html(file):
     html_filename = file.replace(".md", ".html")
     with open(html_filename, 'w') as f:
         f.write(html_text)
-
-
-
 
 
 
