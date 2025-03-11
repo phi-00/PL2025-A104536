@@ -1,0 +1,74 @@
+[
+    {
+        "cod": "A23",
+        "nome": "\u00e1gua 0.5L",
+        "quant": 6,
+        "preco": 0.7
+    },
+    {
+        "cod": "A24",
+        "nome": "\u00e1gua 1.5L",
+        "quant": 10,
+        "preco": 1.2
+    },
+    {
+        "cod": "B10",
+        "nome": "Coca-Cola",
+        "quant": 6,
+        "preco": 1.5
+    },
+    {
+        "cod": "B11",
+        "nome": "Pepsi",
+        "quant": 7,
+        "preco": 1.5
+    },
+    {
+        "cod": "B12",
+        "nome": "Ice Tea Lim\u00e3o",
+        "quant": 5,
+        "preco": 1.7
+    },
+    {
+        "cod": "C30",
+        "nome": "Snickers",
+        "quant": 12,
+        "preco": 1.2
+    },
+    {
+        "cod": "C31",
+        "nome": "KitKat",
+        "quant": 15,
+        "preco": 1.0
+    },
+    {
+        "cod": "C32",
+        "nome": "M&M's",
+        "quant": 10,
+        "preco": 1.3
+    },
+    {
+        "cod": "D40",
+        "nome": "Ruffles",
+        "quant": 8,
+        "preco": 1.8
+    },
+    {
+        "cod": "D41",
+        "nome": "Cheetos",
+        "quant": 7,
+        "preco": 1.6
+    },
+    {
+        "cod": "E50",
+        "nome": "Sandes Mista",
+        "quant": 4,
+        "preco": 2.5
+    },
+    {
+        "cod": "E51",
+        "nome": "Sandes Atum",
+        "quant": 3,
+        "preco": 2.8
+    }
+]
